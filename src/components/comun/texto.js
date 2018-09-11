@@ -1,7 +1,7 @@
 import React from 'react';
 
 function Texto(props) {
-  return (      
+  return (
     <p>
       {props.text}
     </p>

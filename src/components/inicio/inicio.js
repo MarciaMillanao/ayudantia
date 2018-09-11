@@ -1,10 +1,14 @@
 import React, { Component } from 'react';
-import Titulo from '../comun/titulo';
+import Perfil from '../perfil/perfil';
+import Info from '../imformacion/info';
 
 class Inicio extends Component {
   render () {
     return (
-      <Titulo />
+      <div>
+        <Perfil />
+        <Info />
+      </div>
     )
   }
 }
